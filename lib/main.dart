@@ -15,9 +15,9 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
   await Supabase.initialize(
-    url: 'https://pskwsrkcnximvofmlwya.supabase.co',
-    anonKey: 'sb_publishable_87Tb7rG2d-3yLXGWxV1E5w_8WjHOkZ8',
-  );
+  url: 'https://...supabase.co',
+  anonKey: 'sb_publishable_...',
+);
 
   await NotificationService().init();
 

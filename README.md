@@ -91,9 +91,9 @@ The code is structured cleanly under `lib/`:
 
    ```bash
    await Supabase.initialize(
-  url: 'https://...supabase.co',
-  anonKey: 'sb_publishable_...',
-);
+     url: 'https://...supabase.co',
+     anonKey: 'sb_publishable_...',
+   );
    ```
 
 ## How to Build the APK

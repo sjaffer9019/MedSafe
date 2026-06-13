@@ -87,6 +87,14 @@ The code is structured cleanly under `lib/`:
    ```bash
    flutter run
    ```
+   Replace credintials in lib/main.dart:
+
+   ```bash
+   await Supabase.initialize(
+  url: 'https://...supabase.co',
+  anonKey: 'sb_publishable_...',
+);
+   ```
 
 ## How to Build the APK
 
